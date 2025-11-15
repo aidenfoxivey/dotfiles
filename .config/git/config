@@ -1,0 +1,48 @@
+[user]
+    name = Aiden Fox Ivey
+    email = aiden@aidenfoxivey.com
+    signingkey = ~/.ssh/id_ed25519.pub
+
+[column]
+    ui = auto
+
+[branch]
+    sort = -committerdate
+
+[tag]
+    sort = version:refname
+
+[commit]
+    gpgSign = true
+
+[init]
+    defaultbranch = main
+
+[gpg]
+    format = ssh
+
+[push]
+    default = current
+    autoSetupRemote = true
+    followTags = true
+
+[diff]
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicPrefix = true
+    renames = true
+
+[help]
+    autocorrect = prompt
+
+[commit]
+    verbose = true
+
+[rerere]
+    enabled = true
+    autoupdate = true
+
+[rebase]
+    autoSquash = true
+    autoStash = true
+    updateRefs = true
