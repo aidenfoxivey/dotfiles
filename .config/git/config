@@ -48,3 +48,4 @@
     updateRefs = true
 [alias]
 	pf = push --force-with-lease
+	last = log -1 HEAD
