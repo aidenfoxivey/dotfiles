@@ -46,3 +46,5 @@
     autoSquash = true
     autoStash = true
     updateRefs = true
+[alias]
+	pf = push --force-with-lease
